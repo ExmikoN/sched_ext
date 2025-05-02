@@ -7,7 +7,7 @@ def define_oplus_local_modules():
     define_oplus_ddk_module(
         name = "oplus_bsp_sched_ext",
         srcs = native.glob([
-            "main.c",
+            "hmbird_sched_proc_main.c",
             "**/*.h",
         ]),
         includes = ["."],
